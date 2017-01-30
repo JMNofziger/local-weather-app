@@ -1,0 +1,45 @@
+body {
+	background-color: transparent;
+	background-image: url("../snowy.jpg");
+	background-size: auto 100%;
+	color: black;
+}
+h1, h2, h3 {text-align: center;}
+nav, .navbar {background-color: transparent;border: none;}
+
+.weather-card{
+	margin: 0 auto;
+	float:none;
+	max-width: 390px;
+	border: .125em solid;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+p {
+	text-align: left;
+	margin: .5em;
+}
+
+#about{text-align: right; color: black;font-size: 1em;}
+
+#icon-col{
+	height: 150px;
+	background-color: aqua;
+	float: none;
+	text-align: center;
+	margin:0 auto;
+	border-radius: 5px;
+}
+
+.summary{
+	/*margin:0 auto;*/
+}
+
+#icon{
+	color: white;
+	width: 100%;
+	font-size: 3em;
+}
+
+button{margin-top: 10px;}
