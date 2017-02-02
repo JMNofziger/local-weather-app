@@ -1,6 +1,6 @@
 body {
 	background-color: transparent;
-	background-image: url("../snowy.jpg");
+	background-image: url("");
 	background-size: 100% 100%;
 	color: black;
 }
@@ -14,6 +14,7 @@ nav, .navbar {background-color: transparent;border: none;}
 	border: .125em solid;
 	padding: 15px;
 	border-radius: 5px;
+	background-color: rgba(283,291,283, 0.4);
 }
 
 p {
