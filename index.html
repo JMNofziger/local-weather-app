@@ -4,27 +4,23 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>JMNofziger - Local Weather App</title>
-
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<!-- Link my own css sheet to this document -->
 		<link rel="stylesheet" href="css/styles.css"> 
-		<!-- Link the weather-icons css sheet to this document -->
-		<link rel="stylesheet" href="css/weather-icons.min.css"> 
-		<!-- Latest compiled JS -->
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
 	        <div class="container-fluid">
 	        <!-- Brand and toggle icon get grouped for better mobile display -->
-		        <div class="navbar-header"">
+		        <div class="navbar-header">
 		        	<!-- Menu icon -->
 		        </div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-		        <div >
+		        <div>
 			        <ul class="nav navbar-nav navbar-right">
 				        <li role="separator" class="divider"></li>
-				        <li><a id="about" href="https://jmnofziger.github.io">About Me</a></li>
+				        <li><a id="about" href="https://www.linkedin.com/in/jacobmnofziger">About Me</a></li>
 			        </ul>
 		        </div>
 	          	<!-- /.navbar-collapse -->
@@ -42,18 +38,20 @@
 			    		
 			    		<div class="container-fluid col-md-5 col-xs-12">
 			    			<p>Your location based report: </p>
-				    		<p id="location">Wauseon, Ohio</p>
-				    		<p id="condition">Icy and Cold</p>
-				    		<p id="wind">Wind Speed of 48 knots</p>
+				    		<p id="theReport"></p>
+				    		<!-- <p id="condition"></p>
+				    		<p id="wind"></p> -->
 			    		</div>
 
 			    		<div class="container-fluid col-md-7 col-xs-12">
 			    			<div id="icon-col">
 				    			<div class="row">
-				    				<h3 id="temp">62F</h3>
+				    				<h3 id="temp"></h3>
 				    			</div>
 				    			<div class="row">
-				    				<i id="icon" class="wi wi-day-sunny"></i>
+				    				<img id="icon" src=""/>
+				    			</div>
+				    			<div class="row">
 				    				<button id="unitSwitch" class="btn btn-default togglerz" >Toggle Units</button>
 			    				</div>
 			    			</div>

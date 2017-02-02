@@ -26,7 +26,7 @@ p {
 
 #icon-col{
 	height: 150px;
-	background-color: aqua;
+	background-color: rgba(38,38,38, 0.25);
 	float: none;
 	text-align: center;
 	margin:0 auto;
@@ -39,7 +39,6 @@ p {
 
 #icon{
 	color: white;
-	width: 100%;
 	font-size: 3em;
 }
 
